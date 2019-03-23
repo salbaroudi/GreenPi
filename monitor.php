@@ -23,11 +23,11 @@ include("./include/pycalls.php");
 <?php
 include("./include/switches.php")
 ?>
-
 </div>
 
 <!-- javascript for BUTTONS ABOVE! -->
 <script src="script.js"></script>
+
 <hr />
 <h3>Current Sensor Readings:</h3>
 <table>

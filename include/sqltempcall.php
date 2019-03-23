@@ -1,8 +1,9 @@
 <?php
 #sometimes localhost does not resolve; just put IP in directly.
+
 $conn = mysqli_connect("127.0.0.1", $_SESSION["user"],$_SESSION["pw"],$_SESSION["db"]) or die("DB Connect error");
 
-$q="select date,temp from tprobe0417 ";
+$q="select date,temperature from tprobe0417 ";
 $q=$q."order by date desc ";
 $q=$q."limit 288";
 $ds=mysqli_query($conn,$q);
