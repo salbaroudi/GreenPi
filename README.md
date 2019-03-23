@@ -28,10 +28,12 @@ The project is made to automate the maintenance and monitoring of an indoor terr
 
 The project currently consolidates all controls, readouts and graphs onto one webpage. It is designed so that a client can use a cellphone to check on their terrarium when away.
 
-A sample mock-up of Terrarium's front end page can be seen here:
+A sample mock-up of Terrarium's front end page can be seen [here][site]
 
 [components]: ./pics/components.jpg
 
 [relays]: ./pics/relaywiring.jpg
 
-[sensors]: ./sensorwiring.jpg
+[sensors]: ./pics/sensorwiring.jpg
+
+[site]: http://www.cumulativeparadigms.org/html/monitor.html
